@@ -1,0 +1,211 @@
+a {
+	text-decoration:none;
+	color: grey;
+} 
+a:hover {
+	color: #4aaaa5 ;
+}
+p {
+    text-indent: 30px;
+    line-height: 115%;
+}
+header {
+	height: 75px;
+	position: relative;
+	text-align: right;
+	background-color: #ffffff;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	top:0;
+	left:0;
+	right:0;
+	border-style: none none solid none;
+	border-color: #cccccc;
+}
+h1{
+	background-color: #4aaaa5;
+	top: 0;
+	padding: 20px;
+	height: 35px;
+	width: 200px;
+	margin-left: 75px;
+	text-align: center;
+	color: #ffffff;
+	font-size: 30px;
+	margin-top: 0px;
+	margin-bottom: 0px; 
+	bottom: 68px;
+}
+
+body {
+	background:url("../images/intersection.png");
+	height:100vh;
+}
+#header-links {
+
+	color: grey;
+	position: absolute;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	float: right;
+	margin-right: 50px;
+	padding: 10px;
+	right:95px;
+	top:15px;
+}
+#full {
+	width: 100%;
+    height: 50%;
+    display: block;
+    position: relative;
+}
+#background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+#Main {
+	box-sizing: border-box;
+	position: absolute;
+	width: 50%;
+	height: 435px;
+	border: 2px solid #cccccc; 
+	top: 15px;
+	background-color: #ffffff;
+	margin-left: 75px;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+#Main-heading{
+	box-sizing: border-box;
+	font-size: 25px;
+	padding: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	border-bottom: #cccccc 4px solid;
+	color: #4aaaa5;
+	margin-left: 30px;
+	width: 560px;
+}
+#Main-body {
+	box-sizing: border-box;
+	padding: 15px 25px;
+	color: #777777;
+	height: 400px;
+	width: 600px;
+}
+#bio-image{
+	float: left; 
+	margin: 0px 10px 0px 0px; 
+	border: 2px solid #cccccc; 
+	height: 245px;
+	width: 200px;
+}
+#Social-links {
+	box-sizing: border-box;
+	margin-left: 750px;
+	position: absolute;
+	width: 325px;
+	height: 150px;
+	border: 2px solid #cccccc; 
+	top: 15px;
+	background-color: #ffffff;
+	margin-right: 50px;
+	margin-top: 5px;
+	right:75px;
+}
+#Connect-with-Me {
+	box-sizing: border-box;
+	font-size: 25px;
+	padding: 10px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	text-align: left;
+	border-style: none none solid none;
+	border-color: #cccccc;
+	color: #4aaaa5;
+	margin-left: 30px;
+	width: 265px;
+}
+#Social-Media-Links {
+	box-sizing: border-box;
+	padding: 15px;
+	left: 5px;
+}
+footer {
+	height: 35px;
+	position: fixed;
+	text-align: center;
+	background-color: #666666;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #ffffff;
+	bottom: 0;
+	left:0;
+	right:0;
+	border-top: #4aaaa5 7px solid;
+}
+#footer-text {
+	box-sizing: border-box;
+	padding: 20px;
+
+}
+#Cool-cat{
+	position: absolute;
+	margin-left: 20px; 
+	border: 2px solid #cccccc; 
+}
+#Flea {
+	right: 45px;
+	position: absolute;
+	margin-left: 60px; 
+	border: 2px solid #cccccc;
+}
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: grey;
+}
+textarea{
+	width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: grey;
+}
+#submit_button {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	background-color: #4aaaa5;
+	border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+.fa {
+  	padding: 20px;
+  	font-size: 100px;
+  	width: 50px;
+  	text-align: center;
+  	text-decoration: none;
+  	margin: 5px 2px;
+}
+.fa-linkedin {
+  	background: #007bb5;
+  	color: white;
+}
+.fa-github {
+  	background: black;
+  	color: yellow;
+}
+.fa-google {
+  	background: white;
+  	color: red;
+}
